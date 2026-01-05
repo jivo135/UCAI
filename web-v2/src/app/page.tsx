@@ -149,6 +149,11 @@ function HomeContent() {
   useEffect(() => {
     const sharedAddress = searchParams.get("address");
     const sharedNetwork = searchParams.get("network");
+    const tab = searchParams.get("tab");
+    
+    if (tab === "custom") {
+      setActiveTab("custom");
+    }
     
     if (sharedAddress) {
       setContractAddress(sharedAddress);

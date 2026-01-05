@@ -110,7 +110,7 @@ export default function CommunityPage() {
               onChange={(e) => setSearchQuery(e.target.value)}
               className="bg-white/10 border-white/20 text-white placeholder:text-white/50 max-w-md"
             />
-            <Link href="/">
+            <Link href="/?tab=custom">
               <Button variant="outline" className="border-white/30 text-white hover:bg-white/10">
                 Submit Your Template
               </Button>
@@ -130,7 +130,7 @@ export default function CommunityPage() {
             <p className="text-slate-500 dark:text-slate-400 mb-6 max-w-md mx-auto">
               The community registry is just getting started. Create a custom contract MCP and publish it to help others!
             </p>
-            <Link href="/">
+            <Link href="/?tab=custom">
               <Button size="lg">
                 Create Your First Template
               </Button>
