@@ -314,27 +314,27 @@ Any verified contract. Any local ABI. One command.
 Before you connect Claude to a contract, know what you're dealing with. The security scanner analyzes contracts for **50+ risk patterns**:
 
 ```
-┌───────────────────────────────────────────────────────────────────────────────┐
-│  🛡️ SECURITY REPORT                                         Score: 42/100      │
-├────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                │
-│  🚨 CRITICAL                                                                   │
-│  ├── Self-Destruct Function — Contract can be destroyed                        │
-│  └── tx.origin Authentication — Vulnerable to phishing                         │
-│                                                                                │
-│  ⚠️  HIGH                                                                      │
-│  ├── Hidden Mint — Owner can create unlimited tokens                           │
-│  ├── Pausable — Owner can freeze all transfers                                 │
-│  └── Blacklist — Owner can block specific addresses                            │
-│                                                                                │
-│  ✅ POSITIVES                                                                  │
-│  ├── Contract verified on Etherscan                                            │
-│  ├── Uses OpenZeppelin (audited library)                                       │
-│  └── Has reentrancy protection                                                 │
-│                                                                                │
-│  [⚠️ Proceed Anyway]                           [❌ Cancel — Too Risky]          │
-│                                                                                │
-└────────────────────────────────────────────────────────────────────────────────┘
++------------------------------------------------------------------------------+
+|  SECURITY REPORT                                            Score: 42/100    |
++------------------------------------------------------------------------------+
+|                                                                              |
+|  CRITICAL                                                                    |
+|  |-- Self-Destruct Function -- Contract can be destroyed                     |
+|  +-- tx.origin Authentication -- Vulnerable to phishing                      |
+|                                                                              |
+|  HIGH                                                                        |
+|  |-- Hidden Mint -- Owner can create unlimited tokens                        |
+|  |-- Pausable -- Owner can freeze all transfers                              |
+|  +-- Blacklist -- Owner can block specific addresses                         |
+|                                                                              |
+|  POSITIVES                                                                   |
+|  |-- Contract verified on Etherscan                                          |
+|  |-- Uses OpenZeppelin (audited library)                                     |
+|  +-- Has reentrancy protection                                               |
+|                                                                              |
+|  [Proceed Anyway]                                     [Cancel -- Too Risky]  |
+|                                                                              |
++------------------------------------------------------------------------------+
 ```
 
 **Risk Detection Categories:**
@@ -362,27 +362,27 @@ Before you connect Claude to a contract, know what you're dealing with. The secu
 Don't understand what a contract does? The Contract Whisperer explains it in plain English:
 
 ```
-┌────────────────────────────────────────────────────────────────────────────────┐
-│  📖 WHAT THIS CONTRACT DOES                                                    │
-├────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                │
-│  Summary: Uniswap V2 Router — Decentralized token exchange                     │
-│                                                                                │
-│  Main Functions:                                                               │
-│  ├── 📖 getAmountsOut — Calculate expected output for a swap                   │
-│  ├── ✏️ swapExactTokensForTokens — Exchange tokens at market rate              │
-│  ├── ✏️ addLiquidity — Provide liquidity to earn fees                          │
-│  └── 📖 getReserves — Check pool balances                                      │
-│                                                                                │
-│  Permissions:                                                                  │
-│  ├── 🟢 Anyone — Can swap, add/remove liquidity                                │
-│  └── 🟡 Factory — Can create new pairs                                         │
-│                                                                                │
-│  Risk Summary:                                                                 │
-│  "Standard DEX router. No owner privileges. Interacts with external pools      │
-│   which may have their own risks."                                             │
-│                                                                                │
-└────────────────────────────────────────────────────────────────────────────────┘
++------------------------------------------------------------------------------+
+|  WHAT THIS CONTRACT DOES                                                     |
++------------------------------------------------------------------------------+
+|                                                                              |
+|  Summary: Uniswap V2 Router -- Decentralized token exchange                  |
+|                                                                              |
+|  Main Functions:                                                             |
+|  |-- [R] getAmountsOut -- Calculate expected output for a swap               |
+|  |-- [W] swapExactTokensForTokens -- Exchange tokens at market rate          |
+|  |-- [W] addLiquidity -- Provide liquidity to earn fees                      |
+|  +-- [R] getReserves -- Check pool balances                                  |
+|                                                                              |
+|  Permissions:                                                                |
+|  |-- Anyone -- Can swap, add/remove liquidity                                |
+|  +-- Factory -- Can create new pairs                                         |
+|                                                                              |
+|  Risk Summary:                                                               |
+|  "Standard DEX router. No owner privileges. Interacts with external pools    |
+|   which may have their own risks."                                           |
+|                                                                              |
++------------------------------------------------------------------------------+
 ```
 
 **Explains:**
